@@ -12,7 +12,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 
-# Load dataset
+# Load dataset (use your own path for the dataset)
 df = pd.read_csv("/content/synthetic_intrusion_dataset.csv")
 
 # Drop unnecessary columns
